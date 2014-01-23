@@ -1,0 +1,142 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<%@ Register src="BotMenu.ascx" tagname="BotMenu" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Free Online Dating &amp; Dating Site - 100% free online dating and matchmaking 
+        service for singles. Stop wasting your money on paid dating sites.</title>
+    <asp:ContentPlaceHolder id="head" runat="server" />
+        <meta http-equiv="imagetoolbar" content="no" />	
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />	 
+        <link rel="icon" href="Favicon.ico" type="image/x-icon" />
+        <link href="images/style.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Language" content="en" />
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+        <meta name="description" content="100% free online dating and matchmaking service for singles. Stop wasting your money on paid dating sites." />
+        <meta name="keywords" content="free online dating, dating, matchmaking,online dating,dating service,personals,matchmaker,personal ads, dating, relationships, personals, singles, online dating, love, MatchElf, perfect, match, online relationships, relationship site, dating site, internet dating, romance, personal ads, singles ad, matchmaker, matchmaking, personality profile, find love, true love, long term relationship, serious relationship, compatibility test, www.MatchElf.com, perfect-match, wwwMatchElf, MatchElfcom, catholic dating, christian dating, christian singles, gay, relationship advice, dating tips" />
+        <meta name="classification" content="free dating,dating, personals, free dating, online dating, singles, matchmaking, love, relationships, dating, relationships, personals, singles, online dating, love, MatchElf, perfect, match, online relationships, relationship site, dating site, internet dating, romance, personal ads, singles ad, matchmaker, matchmaking, personality profile, find love, true love, long term relationship, serious relationship, compatibility test, www.MatchElf.com, perfect-match, wwwMatchElf, MatchElfcom, catholic dating, christian dating, christian singles, gay, relationship advice, dating tips" />
+        <script language="javascript" id="btnLogin">
+	    <!--
+	    window.history.forward(1);
+	    //Allows user to tab from username to password field
+	    function HandleKeyDown(obj) {
+	        var tabKeyCode = 9;
+	        if (event.keyCode == tabKeyCode && event.srcElement == obj) {
+		        //obj.selection = document.selection.createRange();
+		        //obj.selection.text = String.fromCharCode(tabKeyCode);
+		        //event.returnValue = false;
+		        //document.getElementById("txtPassword").focus();
+		        if (ojb = document.getElementById("txtUsername"))
+			        document.getElementById("txtPassword").focus();
+		        else if (ojb = document.getElementById("txtPassword"))
+			        document.getElementById("btnLogin").focus();
+    		
+		        event.returnValue = false;
+	        }
+	    }
+//	    function IsValidDate(Day,Mn,Yr){
+//           var DateVal = Mn + "/" + Day + "/" + Yr;
+//           var dt = new Date(DateVal);
+//           if(dt.getDate()!=Day){
+//               alert('Invalid Date');
+//               return(false);
+//           }
+//           else if(dt.getMonth()!=Mn-1){
+//           //this is for the purpose JavaScript starts the month from 0
+//               alert('Invalid Date');
+//               return(false);
+//           }
+//           else if(dt.getFullYear()!=Yr){
+//               alert('Invalid Date');
+//               return(false);
+//           }            
+//           return(true);
+//        }
+//        function CallDateFun(sender, args){
+//            var d=document.getElementById("ddDay").value
+//            var m=document.getElementById("ddMonth").value
+//            var y=document.getElementById("ddYear").value
+
+//            if(IsValidDate(d,m,y))
+//                args.IsValid=true;
+//            else
+//                args.IsValid=false;
+//        }
+	    //-->
+        </script>
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 151px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="text-align:center">
+    <table border="0" cellpadding="0" cellspacing="0" width="958">
+    <tbody><tr><td id="shCnr1" height="4" width="4"></td><td id="shTop" height="4" width="950"></td><td id="a1" height="4" width="4"></td></tr>
+    <tr><td id="a2" width="4" class="style1"></td>
+    <td style="background: rgb(255, 204, 102) none repeat scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;" 
+            width="950" class="style1">
+	    <div style="margin: 8px; background: rgb(255, 255, 255) none repeat scroll 0%; position: relative; width: 934px; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+	    <div style="border: 0px solid rgb(255, 255, 255);">
+		    <table title="" style="height:91px; width:932px">
+		    <tbody><tr><td height="91" align="left" style="clip: rect(0px, 0px, 0px, 0px)" valign="top">
+		        <img alt="" src="images/top.gif" style="width: 928px; height: 91px; top: 0px; right: 0px; left: 0px; bottom: 0px;" /></td></tr></tbody></table>
+		    <table border="0" cellpadding="0" cellspacing="0" width="932">
+		    <tbody>
+		    <tr>
+                <td valign="top" width="8" align="left"> 
+                    <hr style="width: 932px" />
+                </td>
+		    </tr>
+		    <tr>
+                <td valign="top" width="318"> 
+                    <asp:ContentPlaceHolder id="MainContent" runat="server">
+                    
+                    </asp:ContentPlaceHolder>
+                <br />
+                </td>
+		    </tr>
+		    </tbody></table>
+    		
+	    </div></div>
+    	
+    </td><td id="sRight" width="4" class="style1"></td></tr>
+    <tr><td id="sh" height="4" width="4"></td>
+    <td id="w2" height="4" width="950"></td>
+    <td id="ss" height="4" width="4"></td></tr> 
+    </tbody></table>
+    <!-- END MAIN CONTENT TABLE -->
+
+    <table border="0" cellpadding="0" cellspacing="0" 
+            style="width: 923px; height: 27px;">
+	    <tbody><tr>
+		    <td align="center" style="visibility: visible">
+                <uc1:BotMenu ID="BotMenu1" runat="server" />
+		    </td>
+	    </tr>
+    </tbody></table>
+            <br>
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 878px">
+		    <tbody><tr>
+		    <td align="center" height="40" valign="bottom">
+			    <span style="color: rgb(255,255,255); font-size: 11px; font-family: verdana;">
+                Models depicted on this page are being used for illustrative purposes only.<br />
+                &nbsp;&nbsp;</span>
+		    </td>
+	    </tr>
+    </tbody></table>
+    <br><br>
+
+
+    </div>
+
+    </form>
+</body>
+</html>

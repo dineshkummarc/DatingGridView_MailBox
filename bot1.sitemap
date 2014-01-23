@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap>
+  <siteMapNode title="Home" url="Default.aspx">
+    <siteMapNode title="Mail" url="Default.aspx" />
+    <siteMapNode title="Matches" url="Default.aspx" />
+    <siteMapNode title="View Profile" url="Default.aspx" />
+    <siteMapNode title="Edit Profile" url="Default.aspx" />
+    <siteMapNode title="My Images" url="Default.aspx" />
+    <siteMapNode title="My Settings" url="Default.aspx" />
+    <siteMapNode title="Log Out" url="Default.aspx" />
+    <siteMapNode url="" title="Links">
+      <siteMapNode title="Search" url="Default.aspx" />
+      <siteMapNode title="Online" url="Default.aspx" />
+      <siteMapNode title="Forums" url="Default.aspx" />
+      <siteMapNode title="Local Events" url="Default.aspx" />
+      <siteMapNode title="Sent Msgs" url="Default.aspx" />
+      <siteMapNode title="Help / faq" url="Default.aspx" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
+
+
+
+
+

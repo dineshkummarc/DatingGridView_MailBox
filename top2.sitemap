@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap>
+  <siteMapNode title="Search" url="Default.aspx">
+    <siteMapNode title="Online" url="Default.aspx" />
+    <siteMapNode title="Forums" url="Default.aspx" />
+    <siteMapNode title="Local Events" url="Default.aspx" />
+    <siteMapNode title="Sent Msgs" url="Default.aspx" />
+    <siteMapNode title="Help / faq" url="Default.aspx" />
+  </siteMapNode>
+</siteMap>
+
+
+
+
+

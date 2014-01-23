@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DatingGridView", "..\DatingGridView", "{8A7B0CD9-B019-4670-9D54-4EC4961631C6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "2.0"
+		Debug.AspNetCompiler.VirtualPath = "/DatingGridView"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\!!!!!!!!!!!!_new\DatingGridView\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DatingGridView\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DatingGridView"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\!!!!!!!!!!!!_new\DatingGridView\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DatingGridView\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49243"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7B0CD9-B019-4670-9D54-4EC4961631C6}.Debug|.NET.ActiveCfg = Debug|.NET
+		{8A7B0CD9-B019-4670-9D54-4EC4961631C6}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,108 @@
+# Standard permissions - for most robots
+
+User-agent: *
+Disallow: /data
+Disallow: /bin/
+Disallow: /controls/
+Disallow: /PaypalProcessing.aspx
+Disallow: /Checkout.aspx
+Disallow: /AddToCart.aspx
+Disallow: /CartCheckout.aspx
+Disallow: /Members/
+Disallow: /Pending/
+
+# Alphabetical listing of denied 
+
+User-agent: Acrobat 
+Disallow: /
+
+User-agent: Black Hole
+Disallow: /
+
+User-agent: BlackWidow
+Disallow: /
+
+User-agent: BlackWidow 4.40
+Disallow: /
+
+User-agent: CheeseBot
+Disallow: /
+
+User-agent: ConveraMultiMediaCrawler/0.1
+Disallow: /
+
+User-agent: Comodo+HTTP(S)+Crawler
+Disallow: /
+
+User-agent: dloader(NaverRobot)
+Disallow: /
+
+User-agent: dloader(Speedy Spider)
+Disallow: /
+
+User-agent: EverbeeCrawler
+Disallow: /
+
+User-agent: flash processor
+Disallow: /
+
+User-agent: htdig/3.1.5
+Disallow: /
+
+User-agent: jscript+processor
+Disallow: /
+
+User-agent: flash+processor
+Disallow: /
+
+User-agent: larbin_2.6.2 larbin2.6.2@unspecified.mail
+Disallow: /
+
+User-agent: larbin_2.6.2
+Disallow: /
+
+User-agent: larbin_2.6.1 larbin2.6.2@unspecified.mail
+Disallow: /
+
+User-agent: larbin_2.6.1
+Disallow: /
+
+User-agent: PixGrabber
+Disallow: /
+
+User-agent: ProWebWalker
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: teleport
+Disallow: /
+
+User-agent: teleport pro
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: / 
+
+User-agent: Web Downloader
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Webster
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+
+
+

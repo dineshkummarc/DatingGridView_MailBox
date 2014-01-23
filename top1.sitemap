@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap>
+  <siteMapNode title="Home" url="Default.aspx">
+    <siteMapNode title="Mail" url="Default.aspx" />
+    <siteMapNode title="Matches" url="Default.aspx" />
+    <siteMapNode title="View Profile" url="Default.aspx" />
+    <siteMapNode title="Edit Profile" url="Default.aspx" />
+    <siteMapNode title="My Images" url="Default.aspx" />
+    <siteMapNode title="My Settings" url="Defaults.aspx" />
+    <siteMapNode title="Log Out" url="Default.aspx" />
+  </siteMapNode>
+</siteMap>
+
+
+
+
+
